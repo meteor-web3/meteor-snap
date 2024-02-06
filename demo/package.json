@@ -1,0 +1,43 @@
+{
+  "name": "demo",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build && vite preview",
+    "preview": "vite preview",
+    "github-build": "vite build",
+    "format": "prettier --config .prettierrc . --write",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix"
+  },
+  "dependencies": {
+    "@meteor-web3/connector": "^1.0.14",
+    "@ethersproject/providers": "^5.7.2",
+    "@metamask/providers": "^9.0.0",
+    "buffer": "^6.0.3",
+    "dayjs": "^1.11.10",
+    "ethers": "5.7.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
+    "styled-components": "5.3.6",
+    "web3": "1.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/styled-components": "5.1.26",
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.2.1",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.45.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.1",
+    "prettier": "^3.0.0",
+    "vite": "^4.1.1"
+  }
+}

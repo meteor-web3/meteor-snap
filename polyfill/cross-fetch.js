@@ -1,0 +1,1 @@
+exports.default = globalThis.fetch;
