@@ -6,9 +6,9 @@ import {
 import { OnInstallHandler, OnRpcRequestHandler } from "@metamask/snaps-types";
 
 import { CORRECT_CODE, UNKNOWN_CODE } from "./constants";
-import { MetaMask } from "./crypto-wallet/metamask";
 import { deepFind } from "./utils";
 import { SnapStorageProvider } from "./utils/storage-provider";
+import { MetaMask } from "./wallet/metamask";
 
 console.log("init walletInstance...");
 const walletInstance = new MetaMask((globalThis as any).ethereum);
